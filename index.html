@@ -1,111 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Aily</title>
-    <style type="text/css">
-        html {
-            background: #81c784;
-            min-height: 100%;
-            background-size: cover;
-            overflow: hidden;
+    <title>Aily – Measure your mood</title>
 
-            -webkit-touch-callout: none;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-            cursor: default;
-            font-family: 'Ubuntu', sans-serif;
-        }
-        body {
-            min-height: 100%;
-        }
-        .content {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            position: absolute;
-            top: 46%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        .heading {
-            color: white;
-            font-size: 90px;
-        }
-        .list-inline li {
-            display: inline-block;
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-        a, a span {
-          -webkit-transition: color .3s ease-in-out;
-          -moz-transition: color .3s ease-in-out;
-          -o-transition: color .3s ease-in-out;
-          transition: color .3s ease-in-out;
-          text-decoration: none;
-        }
-        a {
-          color: #48b983;
-        }
-        a:hover {
-          color: #40a776;
-        }
-        ul, ol {
-          padding-left: 25px;
-        }
-        body h1 a {
-          color: #eee;
-        }
-        body h1 a:hover {
-          text-decoration: none;
-        }
-        body ul {
-          margin: 25px 0 0;
-        }
-        body ul li {
-          padding-bottom: 20px;
-        }
-        body ul a {
-          color: #ddd;
-          font-weight: 700;
-        }
-        body ul a span {
-          color: #888;
-          font-weight: 300;
-          padding-right: 2px;
-        }
-        body ul a:hover {
-          color: #48b983;
-          text-decoration: none;
-        }
-        body ul a:hover span {
-          color: #1b8057;
-        }
-    </style>
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap-grid.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css"/>
 
-    <meta name="og:type" content="website">
-    <meta name="og:title" content="aily.app">
-    <meta name="og:description" content="Aily - daily mood tracker">
-    <meta name="og:site_name" content="Aily">
-    <meta name="og:url" content="https://aily.app">
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="">
-    <meta name="twitter:domain" content="aily.app">
-    <meta name="twitter:title" content="aily.app">
-    <meta name="twitter:description" content="Aily - daily mood tracker">
-    <meta name="twitter:url" content="http://aily.app">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 </head>
 <body>
-<div class="content">
-<span class="heading">coming soon...</span>
-</div>
+<section id="cover-image">
+    <div class="background"></div>
+    <div class="content">
+        <div class="container">
+            <div class="col-md-4 col-md-pull-2 col-lg-pull-4 pull-right data-container">
+                <div class="lead-info">
+                    <h1>Aily</h1>
+                    <p>An easy to use micro-diary and mood tracker.</p>
+                    <p class="stores">
+                        <a href="#google"><img src="assets/images/google-play-badge.png"
+                                               alt="Download from google play" width="215"/></a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 pull-left data-container">
+                <div class="android-device">
+                    <img src="assets/images/screenshot.png" alt="screenshot"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="values">
+    <div class="container header">
+        <div class="col-md-12">
+            <h2 class="decorative">Track your mood on a daily basis</h2>
+            <p>Aily enables you to keep track of your mood with ease. You can get this application on Google Play for free.</p>
+        </div>
+    </div>
+    <div class="container body">
+        <div class="col-md-3 value">
+            <div class="icon"><i class="material-icons md-36">https</i></div>
+            <h3>Privacy</h3>
+            <p>We care for your privacy. Aily does not collect or store your personal data.<br/> All entries are stored on your phone storage. You can export all of them at any time.</p>
+        </div>
+        <div class="col-md-3 col-md-offset-1 value">
+            <div class="icon"><i class="material-icons md-36">accessibility_new</i></div>
+            <h3>Easy to use</h3>
+            <p>You can add an entry super quickly with title and note.</p>
+        </div>
+        <div class="col-md-3 col-md-offset-1 value">
+            <div class="icon"><i class="material-icons md-36">favorite</i></div>
+            <h3>Self-awareness</h3>
+            <p>This application will make you more self-aware</p>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    <p>Do you have questions? Send an email <b>contact@aily.app</b></p>
+</section>
 </body>
 </html>
