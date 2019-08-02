@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: 'Ubuntu', Helvetica, sans-serif;
 }
 
 a, a:focus {
@@ -125,8 +125,8 @@ a, a:focus {
 
 #cover-image h1 {
     font-weight: normal;
-    font-family: 'Roboto', Helvetica, sans-serif;
-    font-size: 36px;
+    font-family: 'Ubuntu', Helvetica, sans-serif;
+    font-size: 42px;
     line-height: 54px;
     color: #ffffff;
     margin: 16px auto;
@@ -136,8 +136,8 @@ a, a:focus {
 
 #cover-image p {
     font-weight: normal;
-    font-family: 'Roboto', Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: 'Ubuntu', Helvetica, sans-serif;
+    font-size: 18px;
     line-height: 24px;
     color: #ffffff;
     margin: 16px auto;
@@ -150,6 +150,11 @@ a, a:focus {
     text-align: center;
     width: 100%;
     margin-top: 40px;
+}
+
+.store-image {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 #values {
@@ -168,7 +173,7 @@ a, a:focus {
 
 .header h2 {
     font-weight: normal;
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: 'Ubuntu', Helvetica, sans-serif;
     font-size: 36px;
     line-height: 54px;
     color: #333333;
@@ -179,7 +184,7 @@ a, a:focus {
 
 .header p {
     font-weight: normal;
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: 'Ubuntu', Helvetica, sans-serif;
     font-size: 16px;
     line-height: 24px;
     color: #333333;
@@ -190,7 +195,7 @@ a, a:focus {
 
 .body h3 {
     font-weight: bold;
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: 'Ubuntu', Helvetica, sans-serif;
     font-size: 14px;
     line-height: 21px;
     color: #333333;
@@ -201,7 +206,7 @@ a, a:focus {
 
 .body p {
     font-weight: normal;
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: 'Ubuntu', Helvetica, sans-serif;
     font-size: 14px;
     line-height: 21px;
     color: #333333;
@@ -218,7 +223,7 @@ a, a:focus {
 
 #footer p {
     font-weight: normal;
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: 'Ubuntu', Helvetica, sans-serif;
     font-size: 12px;
     line-height: 18px;
     color: #555555;
